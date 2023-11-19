@@ -2,7 +2,6 @@
 #include &lt;string.h&gt;
 int main(int argc, char **argv)
 {
-printf(&quot;Hello %s!\n&quot;, name);
 char first[255], last[255];
 printf(&quot;Enter your first name: &quot;);
 fgets(first, 255, stdin);
